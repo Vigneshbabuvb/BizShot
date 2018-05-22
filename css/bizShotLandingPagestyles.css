@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper{
+	width:90%;
+	margin:0 auto;
+}
+
+.head{
+	background-color: rgb(0, 0, 0,0.3);
+	height: 60px;
+	z-index:100;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.logo,.links,.options{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	height: auto;
+	width:10%;
+	overflow:auto;
+	box-sizing: border-box;
+}
+
+.logo>img{
+	max-width: 80%;
+	max-height: 100%;
+}
+
+.links{
+	height: auto;
+	overflow: hidden;
+	width:59%;
+	box-sizing: border-box;
+}
+
+.options{
+	width: 30%;
+	height: auto;
+	overflow:hidden;
+	box-sizing: border-box;
+}
+.links>ul>li,.options>ul>li{
+	list-style: none;
+}
+
+.options>ul>li{
+	display: inline;
+}
+
+.banner{
+	margin-top:-60px;
+	min-height: 700px;
+	width:100%;
+	z-index:-6;
+	background-size:cover !important;
+	background:url(../images/banner_img.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.content_area{
+	background-color:#eee;
+	height: auto;
+	overflow: hidden;
+	padding:20px 0px;
+}
+
+.title{
+	width: 100%;
+	height: 80px;
+	text-align:center;
+}
+
+.title>h3{
+	font-family:"Lato";
+	font-weight: 600;
+}
+
+
+.icon1{
+	background:url(../images/icons.png);
+	width:94px;
+	height: 94px;
+	background-position:-3px 0px;
+}
+
+
+.icon2{
+	background: url(../images/icons.png);
+	width: 95px;
+	height: 95px;
+	background-position: 194px 0px;
+}
+
+.icon3{
+	background: url(../images/icons.png);
+	width: 97px;
+	height: 95px;
+	background-position: 99px 0px;
+}
+
+.card{
+	height: 500px;
+	width:30%;
+	background-color:#fff;
+	color:#515151;
+	margin-right: 2%;
+	display: inline-block;
+	border:1px solid #9f9f9f;
+}
+
+
+.heading>div,.heading>h4{
+	display: inline-block;
+	vertical-align: middle;
+}

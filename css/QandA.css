@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+    background-color:#fff;
+    height:80px;
+    overflow:hidden;
+    width:100%;
+}
+.menus,.logo{
+	display: inline-block;
+	vertical-align: middle;
+	width:49%;
+	padding-top: 8px;
+}
+
+.menus>ul{
+	text-align: right;
+}
+
+.menus>ul>li{
+	display: inline;
+}
+
+.menus>ul>li>a{
+	font-size:16px;
+	font-family:"Lato";
+	color: #7b8b8e;
+  text-decoration: none;
+	font-weight: 600;
+	margin-right: 25px;
+}
+.content_area{
+		background-color:#eeeeee;
+		height:auto;
+		width:100%;	
+		overflow: hidden;
+		padding-bottom:50px;
+	}	
+
+.news_title{
+		width:100%;
+		background-color:#ffffff;
+		color:#515151;
+		height:100px;
+	text-align: center;
+	}
+.news_title>p{
+  width:100%;
+	font-size:30px;
+	font-family: 'Lato',sans-serif;
+	line-height: 100px;
+	}
+
+ul.questions_list>li{
+		
+		width:100%;
+		list-style:none;	
+		box-sizing: border-box;
+    }
+.question{
+		width:100%;
+		height:auto;
+		padding-bottom:25px;
+		margin-top:20px;
+		background-color:#ffffff;
+		padding-top: 20px;
+		padding-right: 15px;
+		padding-left: 15px;
+		overflow:hidden;
+		box-sizing: border-box;
+	}
+.question>h3{
+	margin-top:10px;
+	font-size:20px;
+	font-weight:400;
+	color:#000;	
+	font-family: 'Lato', sans-serif;
+	font-weight:regular;	
+	}
+
+.question>p{
+	margin-top:10px;
+	font-size:18px;
+	color:#515151;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	line-height: 1.4em;
+	word-spacing: 0.3em;
+	}
+
+.question>.reply{
+	float:right;
+	padding:10px 15px;
+	background-color:#00b4ff;
+	border:0px;
+	border-radius:5px;
+	font-size:16px;
+	color:#fff;
+	font-family:"Lato";
+	font-weight:600;
+}
+
+.reply_box{
+	width:100%;
+	padding:20px;
+	box-sizing: border-box;
+	height: auto;
+	overflow: hidden;
+	background-color:#A4A4A4;
+}
+
+.reply_box>input{
+	width:100%;
+	margin:0 auto;
+	height:30px;
+	border:0px;
+	border-radius:5px;
+	padding:10px 15px;
+	box-sizing: border-box;
+}
+
+.prev_replies{
+	width:100%;
+	padding:20px;
+	height: auto;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+footer{
+	width: 100%;
+	height: 330px;
+	background-color: #515151;
+	color: #ffffff;
+	padding: 30px 0px 10px 0px !important;
+}
+
+.foot_col1,.foot_col2,.foot_col3,.foot_col4{
+	color: #ffffff;
+	height: 180px;
+	width: 25%;
+	float: left;
+}
+
+.foot_col4{
+	clear:right;
+}
+
+.foot_col4>ul>li>a{
+		float:left !important;
+		margin-right:20px; 	
+	}
+
+ul>li>h3 {
+    font-size: 20px;
+	font-family: 'Lato',sans-serif;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+.foot_col1>ul>li,.foot_col2>ul>li,.foot_col3>ul>li,.foot_col4>ul>li{
+	list-style: none;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.foot_col1>ul>li>a,.foot_col2>ul>li>a,.foot_col3>ul>li>a,.foot_col4>ul>li>a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #ffffff;
+}
+hr.style1{
+	border-top: 1px solid #fff;
+}
+
+	
+.logofooter{
+	text-align: center;
+}
+
+.logofooter>img{
+	text-align: center;
+	margin:0 auto;
+	display: block;
+}
+
+.logofooter>p{
+	font-family:'Lato',sans-serif;
+	font-size:14px;
+	color: #fff;
+	display: block;
+}
+
+@media screen and (max-width:769px){
+	.wrapper{
+		width:90%;
+		margin:0 auto;	
+	}	
+	
+	footer{
+		width: 100%;
+		float:left;
+		height: auto;
+		background-color: #515151;
+		color: #ffffff;
+		padding: 30px 0px 10px 0px !important;
+		overflow: hidden;
+	}
+	
+	.foot_col1,.foot_col2,.foot_col3,.foot_col4{
+		color: #ffffff;
+		height: 180px;
+		width: 100%;
+		float: left;
+		clear: right;
+		box-sizing: border-box;
+	}
+	
+	.foot_col4{
+		clear:right;
+	}
+	
+	.foot_col4>ul>li>a{
+			float:left !important;
+			margin-right:20px; 	
+		}
+	
+	ul>li>h3 {
+		font-size: 20px;
+		font-family: 'Lato',sans-serif;
+		margin-bottom: 20px;
+		font-weight: 700;
+	}
+	
+	.foot_col1>ul>li,.foot_col2>ul>li,.foot_col3>ul>li,.foot_col4>ul>li{
+		list-style: none;
+		display: block;
+		margin-bottom: 15px;
+	}
+	
+	.foot_col1>ul>li>a,.foot_col2>ul>li>a,.foot_col3>ul>li>a,.foot_col4>ul>li>a{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		font-weight: 300;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	hr.style1{
+		border-top: 1px solid #fff;
+	}
+	
+		
+	.logo{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	
+	.logo>img{
+		text-align: center;
+		margin:0 auto;
+		display: block;
+		height:40px;
+		width:150px;
+	}
+	
+	.logo>p{
+		font-family:'Lato',sans-serif;
+		font-size:14px;
+		color: #fff;
+		display: block;
+	}
+	
+}
+
